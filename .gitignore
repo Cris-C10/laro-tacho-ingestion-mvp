@@ -1,0 +1,14 @@
+# Terraform
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+crash.log
+crash.*.log
+
+# IDE
+.idea/
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
