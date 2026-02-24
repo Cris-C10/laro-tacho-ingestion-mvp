@@ -44,9 +44,9 @@ This repository represents the event-driven cloud ingestion backbone that connec
 
 +--------+---------+
 
-&nbsp;        |
+        |
 
-&nbsp;        v
+        v
 
 +------------------+
 
@@ -54,13 +54,12 @@ This repository represents the event-driven cloud ingestion backbone that connec
 
 | (.ddd generator) |
 
-| \[In Development] |
+| [In Development] |
 
 +--------+---------+
 
-&nbsp;        |
+       |
 
-&nbsp;        v
 
 +----------------------+
 
@@ -68,29 +67,29 @@ This repository represents the event-driven cloud ingestion backbone that connec
 
 | (Secure + Versioned) | 
 
-|   \[Implemented]      |
+|   [Implemented]      |
 
 +----------+-----------+
 
-&nbsp;          |
+          |
 
-&nbsp;  Object Created Event
+  Object Created Event
 
-&nbsp;          |
+          |
 
-&nbsp;          v
+          v
 
 +----------------------+
 
 | Lambda Ingest        |
 
-|  \[Implemented]       |
+| [Implemented]       |
 
 +----------+-----------+
 
-&nbsp;          |
+          |
 
-&nbsp;          v
+          v
 
 +----------------------+
 
@@ -98,13 +97,13 @@ This repository represents the event-driven cloud ingestion backbone that connec
 
 | (Ingestion Tracking) |
 
-| \[Implemented]        |
+| [Implemented]        |
 
 +----------+-----------+
 
-&nbsp;          |
+          |
 
-&nbsp;          v
+          v
 
 +----------------------+
 
@@ -112,13 +111,13 @@ This repository represents the event-driven cloud ingestion backbone that connec
 
 | Compliance Engine    |
 
-| \[Planned]            |
+| [Planned]            |
 
 +----------+-----------+
 
-&nbsp;          |
+          |
 
-&nbsp;          v
+          v
 
 +----------------------+
 
@@ -128,7 +127,7 @@ This repository represents the event-driven cloud ingestion backbone that connec
 
 | IoT Integration      |
 
-| \[Planned]            |
+| [Planned]            |
 
 +----------------------+
 
