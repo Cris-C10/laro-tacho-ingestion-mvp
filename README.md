@@ -42,11 +42,11 @@ This repository represents the event-driven cloud ingestion backbone that connec
 |                      |
 |    Driver Smartcard  | 
 |                      |
-+--------+-------------+
-         |
-         |
-         |
-         v
++----------+-----------+
+           |
+           |
+           |
+           v
 +----------------------+
 |                      |
 |    Rust Extractor    |
@@ -55,11 +55,11 @@ This repository represents the event-driven cloud ingestion backbone that connec
 |                      |
 |    [In Development]  |
 |                      |
-+--------+-------------+
-         |
-         |
-         | 
-         v
++----------+-----------+
+           |
+           |
+           | 
+           v
 +----------------------+
 |                      |
 |   S3 Raw Bucket      |
@@ -68,15 +68,15 @@ This repository represents the event-driven cloud ingestion backbone that connec
 |                      |
 |   [Implemented]      |
 |                      |
-+---------+------------+
-          |
-          |
-          |
-  Object Created Event
-          |
-          |
-          |
-          v
++-----------+----------+
+            |
+            |
+            |
+   Object Created Event
+            |
+            |
+            |
+            v
 +----------------------+
 |                      |
 |   Lambda Ingest      |
