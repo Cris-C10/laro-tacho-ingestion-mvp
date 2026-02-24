@@ -38,25 +38,24 @@ This repository represents the event-driven cloud ingestion backbone that connec
 
 ```
 
-+------------------+
-|                  |
-| Driver Smartcard | 
-|                  |
-+--------+---------+
++----------------------+
+|                      |
+|    Driver Smartcard  | 
+|                      |
++--------+-------------+
          |
          |
          |
          v
-
-+------------------+
-|                  |
-| Rust Extractor   |
-|                  |
-| (.ddd generator) |
-|                  |
-| [In Development] |
-|                  |
-+--------+---------+
++----------------------+
+|                      |
+|    Rust Extractor    |
+|                      |
+|    (.ddd generator)  |
+|                      |
+|    [In Development]  |
+|                      |
++--------+-------------+
          |
          |
          | 
@@ -78,7 +77,6 @@ This repository represents the event-driven cloud ingestion backbone that connec
           |
           |
           v
-
 +----------------------+
 |                      |
 |   Lambda Ingest      |
@@ -90,7 +88,6 @@ This repository represents the event-driven cloud ingestion backbone that connec
            |
            |
            v
-
 +----------------------+
 |                      |
 | DynamoDB Ledger      |
@@ -104,7 +101,6 @@ This repository represents the event-driven cloud ingestion backbone that connec
            |
            | 
            v
-
 +----------------------+
 |                      |
 | Parser +             |
@@ -118,7 +114,6 @@ This repository represents the event-driven cloud ingestion backbone that connec
            |
            |
            v
-
 +----------------------+
 |                      |
 | Plain-Text Results   |
