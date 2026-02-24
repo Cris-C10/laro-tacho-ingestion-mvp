@@ -43,10 +43,10 @@ This repository represents the event-driven cloud ingestion backbone that connec
 | Driver Smartcard | 
 
 +--------+---------+
-
-        |
-
-        v
+         |
+         |
+         |
+         v
 
 +------------------+
 
@@ -57,10 +57,10 @@ This repository represents the event-driven cloud ingestion backbone that connec
 | [In Development] |
 
 +--------+---------+
-
-       |
-
-
+         |
+         |
+         | 
+         v
 +----------------------+
 
 | S3 Raw Bucket        |
@@ -69,14 +69,14 @@ This repository represents the event-driven cloud ingestion backbone that connec
 
 |   [Implemented]      |
 
-+----------+-----------+
-
++---------+------------+
           |
-
+          |
+          |
   Object Created Event
-
           |
-
+          |
+          |
           v
 
 +----------------------+
@@ -86,10 +86,10 @@ This repository represents the event-driven cloud ingestion backbone that connec
 | [Implemented]       |
 
 +----------+-----------+
-
-          |
-
-          v
+           |
+           |
+           |
+           v
 
 +----------------------+
 
@@ -100,10 +100,10 @@ This repository represents the event-driven cloud ingestion backbone that connec
 | [Implemented]        |
 
 +----------+-----------+
-
-          |
-
-          v
+           |
+           |
+           | 
+           v
 
 +----------------------+
 
@@ -114,10 +114,10 @@ This repository represents the event-driven cloud ingestion backbone that connec
 | [Planned]            |
 
 +----------+-----------+
-
-          |
-
-          v
+           |
+           |
+           |
+           v
 
 +----------------------+
 
