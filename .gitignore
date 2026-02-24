@@ -12,3 +12,6 @@ crash.*.log
 # OS junk
 .DS_Store
 Thumbs.db
+
+# Lambda build artifacts (zip packages)
+**/build/

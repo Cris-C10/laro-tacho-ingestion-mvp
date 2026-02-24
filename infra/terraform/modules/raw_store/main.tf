@@ -31,3 +31,27 @@ resource "aws_s3_bucket_server_side_encryption_configuration" "this" {
     }
   }
 }
+
+# ------------------------------------------------------------
+# Lifecycle: move old objects to Glacier after 90 days
+# ------------------------------------------------------------
+resource "aws_s3_bucket_lifecycle_configuration" "this" {
+  bucket = aws_s3_bucket.this.id
+
+ rule {
+  id     = "glacier-after-90-days"
+  status = "Enabled"
+
+  filter {}
+
+  transition {
+    days          = 90
+    storage_class = "GLACIER"
+  }
+
+  noncurrent_version_transition {
+    noncurrent_days = 90
+    storage_class   = "GLACIER"
+  }
+ }
+}
