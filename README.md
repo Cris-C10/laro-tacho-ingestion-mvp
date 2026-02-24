@@ -39,9 +39,9 @@ This repository represents the event-driven cloud ingestion backbone that connec
 ```
 
 +------------------+
-
+|                  |
 | Driver Smartcard | 
-
+|                  |
 +--------+---------+
          |
          |
@@ -49,26 +49,26 @@ This repository represents the event-driven cloud ingestion backbone that connec
          v
 
 +------------------+
-
+|                  |
 | Rust Extractor   |
-
+|                  |
 | (.ddd generator) |
-
+|                  |
 | [In Development] |
-
+|                  |
 +--------+---------+
          |
          |
          | 
          v
 +----------------------+
-
-| S3 Raw Bucket        |
-
+|                      |
+|   S3 Raw Bucket      |
+|                      |
 | (Secure + Versioned) | 
-
+|                      |
 |   [Implemented]      |
-
+|                      |
 +---------+------------+
           |
           |
@@ -80,11 +80,11 @@ This repository represents the event-driven cloud ingestion backbone that connec
           v
 
 +----------------------+
-
-| Lambda Ingest        |
-
-| [Implemented]       |
-
+|                      |
+|   Lambda Ingest      |
+|                      |
+|   [Implemented]      |
+|                      |
 +----------+-----------+
            |
            |
@@ -92,13 +92,13 @@ This repository represents the event-driven cloud ingestion backbone that connec
            v
 
 +----------------------+
-
+|                      |
 | DynamoDB Ledger      |
-
+|                      |
 | (Ingestion Tracking) |
-
+|                      |
 | [Implemented]        |
-
+|                      |
 +----------+-----------+
            |
            |
@@ -106,13 +106,13 @@ This repository represents the event-driven cloud ingestion backbone that connec
            v
 
 +----------------------+
-
+|                      |
 | Parser +             |
-
+|                      |
 | Compliance Engine    |
-
+|                      |
 | [Planned]            |
-
+|                      |
 +----------+-----------+
            |
            |
@@ -120,15 +120,15 @@ This repository represents the event-driven cloud ingestion backbone that connec
            v
 
 +----------------------+
-
+|                      |
 | Plain-Text Results   |
-
+|                      |
 | Desktop / Mobile /   |
-
+|                      |
 | IoT Integration      |
-
+|                      |
 | [Planned]            |
-
+|                      |
 +----------------------+
 
 ```
