@@ -1,12 +1,15 @@
 \# LARO Tacho Ingestion MVP
 
+## Platform Context
 
+This repository is one of two core infrastructure pillars of the LAROHUB platform:
+
+1. Event-Driven Data Ingestion (this repo)
+2. Cognito-based Authentication & Access Layer (separate Terraform module)
+
+Together they form the identity + ingestion backbone of a unified compliance platform.
 
 \## Overview
-
-
-
-This project is part of a larger compliance platform focused on tachograph (.ddd) data processing.
 
 
 
