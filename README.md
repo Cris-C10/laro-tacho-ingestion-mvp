@@ -2,12 +2,18 @@
 
 ## Platform Context
 
-This repository is one of two core infrastructure pillars of the LAROHUB platform:
+This repository is one of two core infrastructure pillars of the **LAROHUB platform**:
 
-1. Event-Driven Data Ingestion (this repo)
-2. Cognito-based Authentication & Access Layer (separate Terraform module)
+1. **Event-Driven Data Ingestion Backbone**  
+   (this repository)
 
-Together they form the identity + ingestion backbone of a unified compliance platform.
+2. **Authentication & Access Layer**  
+   https://github.com/Cris-C10/larohub-auth-portal
+
+Together they form the **identity + ingestion backbone** of the LAROHUB compliance platform.
+
+- The **Auth Portal** manages user authentication, OAuth login, and secure session validation.
+- The **Ingestion Backbone** manages tachograph file ingestion, storage, and processing pipelines.
 
 \## Overview
 
